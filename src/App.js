@@ -1,25 +1,21 @@
 import React from 'react';
 import DashboardButton from './DashboardButton';
-import DemoLine from './components/charts/line-chart';
-import DemoBar from './components/charts/bar-chart';
-import DemoPie from './components/charts/pie-chart';
-import DemoSankey from './components/charts/sankey-chart';
-import DemoBullet from './components/charts/bullet-chart';
+
+import "./App.css";
 
 const App = () => {
   return (
     <div>
-     
+    
      <DashboardButton />
-     <DemoLine />
-      <DemoBar />
-      <DemoPie />
-      <DemoSankey />
-      <DemoBullet /> 
 
     </div>
   );
 };
 
 export default App;
+
+
+
+
 
