@@ -3,7 +3,7 @@ import { Line } from '@ant-design/plots';
 
 const DemoLine = () => {
   const [data, setData] = useState([]);
-
+  
   useEffect(() => {
     asyncFetch();
   }, []);
