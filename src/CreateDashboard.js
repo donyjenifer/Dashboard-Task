@@ -15,11 +15,11 @@ const CreateDashboard = () => {
   const handleCreateDashboard = () => {
     
     localStorage.setItem('selectedCharts', JSON.stringify(selectedCharts));
-    navigate.push('/dashboard');
+    navigate('/dashboard');
   };
 
   return (
-    <div>
+    <div className='sample'>
       <h1>Create Dashboard</h1>
       <Select
         mode="multiple"

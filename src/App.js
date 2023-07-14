@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import DashboardButton from './DashboardButton';
 import CreateDashboard from './CreateDashboard';
 import ChartContainer from './ChartContainer';
+import './App.css';
 
 const App = () => {
 
@@ -11,16 +12,10 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        <Route exact path="/">
-          <DashboardButton />
-        </Route>
-        <Route path="/create-dashboard">
-          <CreateDashboard />
-        </Route>
-        <Route path="/dashboard">
-          <ChartContainer selectedCharts={selectedCharts} />
-        </Route>
-        </Routes>
+        <Route exact path="/" element={<DashboardButton />} />
+        <Route path="/create-dashboard" element={<CreateDashboard />} />
+        <Route path="/dashboard" element={<ChartContainer selectedCharts={selectedCharts} />} />
+      </Routes>
     </Router>
   );
 };

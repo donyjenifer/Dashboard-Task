@@ -42,8 +42,8 @@ const DemoBullet = () => {
       position: 'bottom',
       items: [
         {
-          value: '实际值',
-          name: '实际值',
+          // value: '实际值',
+          // name: '实际值',
           marker: {
             symbol: 'square',
             style: {
@@ -53,8 +53,8 @@ const DemoBullet = () => {
           }
         },
         {
-          value: '目标值',
-          name: '目标值',
+          // value: '目标值',
+          // name: '目标值',
           marker: {
             symbol: 'line',
             style: {

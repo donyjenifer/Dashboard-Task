@@ -3,10 +3,12 @@ import { Link } from 'react-router-dom';
 
 const DashboardButton = () => {
   return (
-    <div>
-      <Link to="/create-dashboard">Create Dashboard 1</Link>
-      <Link to="/create-dashboard">Create Dashboard 2</Link>
-      <Link to="/create-dashboard">Create Dashboard 3</Link>
+    <div className='dashboard'>
+   
+      <ul><Link to="/create-dashboard">Dashboard 1</Link></ul>
+      <ul><Link to="/create-dashboard"> Dashboard 2</Link></ul>
+      <ul><Link to="/create-dashboard"> Dashboard 3</Link></ul>
+   
     </div>
   );
 };
