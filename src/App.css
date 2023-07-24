@@ -1,4 +1,40 @@
+.app-container {
+  display: table table-row-group ;
+  
+}
+.menu {
+  border-spacing:0cap;
+  padding: 5px;
 
+}
+
+.chart-container {
+  padding: 5px;
+  flex: 1;
+
+}
+
+.chart {
+  border: 1px solid #ccc;
+  padding: 8px;
+  margin-top: 1px;
+ 
+}
+
+.chart h2 {
+  margin-bottom: 4px;
+
+}
+
+.ant-menu {
+  display: flex;
+  width: 150px;  
+}
+
+
+
+
+/* 
 .sample {
   background-color: lightblue;
   padding: 195px;
@@ -6,6 +42,7 @@
 }
 body{  
   background-color:lightblue;
+ 
 }
 .dashboard  {
    padding: 1rem;
@@ -42,4 +79,4 @@ body{
 .button {
   background-color: blue;
   color: white;
-}
+}  */
